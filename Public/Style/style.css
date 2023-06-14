@@ -1,0 +1,123 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0%;
+  background-color: #9C835F;
+}
+
+/* player and com*/
+.player {
+left: 30%;
+top: 15%;
+position: absolute;
+width: 299px;
+height: 94px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 49px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #000000;
+}
+
+.com {
+  left: 60%;
+  top: 15%;
+  position: absolute;
+  width: 299px;
+  height: 94px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+/* batu 1 */
+.batu1 {
+position: absolute;
+width: 300px;
+height: 170px;
+left: 30%;
+top: 25%;
+}
+
+/* batu 2 */
+.batu2 {
+  position: absolute;
+  width: 300px;
+  height: 170px;
+  left: 60%;
+  top: 25%;
+  }
+
+/* kertas 1 */
+.kertas1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 30%;
+  top: 38%;
+  }
+
+/* for VS */
+.text {
+  position: absolute;
+width: 296px;
+height: 186px;
+left: 45%;
+top: 38%;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 144px;
+line-height: 196px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #BD0000;
+}
+
+/* kertas 2 */
+.kertas2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 60%;
+  top: 38%;
+  }
+
+/* gunting 1 */
+.gunting1 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 30%;
+  top: 58%;
+  }
+
+/* gunting 2 */
+.gunting2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 60%;
+  top: 58%;
+  }
+
+/* refresh 2 */
+
+.refresh {
+position: absolute;
+width: 77px;
+height: 71px;
+left: 47.5%;
+top: 75%;
+}
+

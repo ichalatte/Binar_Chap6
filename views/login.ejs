@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/style/login.css">
+</head>
+<body>
+    <form action="/login" method="post">
+        <div class="imgcontainer">
+          <img src="./assets/cat_typing.gif" alt="Avatar" class="avatar">
+          <h2>Login Form</h2>
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="text" placeholder="Enter Password" name="password" required>
+              
+          <button type="submit">Login</button>
+        </div>
+      </form>
+</body>
+</html>
